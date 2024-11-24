@@ -1,0 +1,14 @@
+footer {
+  height: 51px;
+  background-color: #000;
+  color: white;
+  //   .right {
+  //     float: right;
+  //   }
+}
+
+@media (max-width: 576px) {
+  footer {
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.profile-image {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 35px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: right;
+}
+
+nav ul li a {
+  display: block;
+  color: #000;
+  font-size: 13pt;
+  line-height: 2;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #1AE0EC;
+}
+
+.hamburger {
+  color: #1AE0EC;
+  font-size: 1.2rem;
+  line-height: 2;
+  font-weight: bold;
+  display: none;
+}
+
+.hamburger:checked ~ .nav-menu {
+  display: flex;
+}
+
+@media (max-width: 576px) {
+  nav,
+  .hamburger {
+    display: block;
+    float: right;
+  }
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    float: right;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 70px;
+  background-color: rgba(19, 232, 241, 0.3882352941);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  width: 700px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+    width: 85vw;
+  }
+}
+.lngImg {
+  height: 30px;
+}
+
+.cAbout {
+  padding-top: 80px;
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cAbout img,
+.cAbout h2,
+.cAbout p {
+  margin-bottom: 20px;
+}
+
+.cAbout p {
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.download-rsm {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  background-color: #1ae0ec;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 3vh;
+}
+
+@media (max-width: 576px) {
+  .cAbout {
+    margin-top: 320px;
+  }
+}
+.cAbout p {
+  width: 85vw;
+}
+
+#gallery {
+  background-color: #f6f6f6;
+}
+
+#gallery .container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .lngImgproject img {
+    width: 25%;
+  }
+}
+.contact-section {
+  background-color: #3a3a3a;
+}
+.contact-section h2,
+.contact-section p,
+.contact-section label {
+  color: white;
+}
+.contact-section .send {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+  background-color: #1ae0ec;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.contact-section img {
+  padding-right: 50px;
+}
+
+.mycontactIMg {
+  height: 80px;
+  background-color: #1ae0ec;
+}
+.mycontactIMg .container {
+  text-align: center !important;
+}
+.mycontactIMg .row {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+@media (max-width: 576px) {
+  .mycontactIMg {
+    height: 160px;
+  }
+}
+@media (max-width: 820px) and (min-width: 577px) {
+  .mycontactIMg {
+    height: 110px;
+  }
+}
+footer {
+  height: 51px;
+  background-color: #000;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  footer {
+    margin-top: 5px;
+  }
+}/*# sourceMappingURL=main.css.map */

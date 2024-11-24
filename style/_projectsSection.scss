@@ -1,0 +1,16 @@
+#gallery {
+  background-color: #f6f6f6;
+}
+
+#gallery .container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .lngImgproject {
+    img {
+      width: 25%;
+    }
+  }
+}

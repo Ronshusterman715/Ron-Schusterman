@@ -1,0 +1,18 @@
+// languages img
+
+.lngImg {
+    height: 7vh;
+}
+
+.main-img {
+    background-color: #EBFEFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+
+    img {
+        width: 70vw;
+        height: 80vh;
+        margin-bottom: 5vh;
+    }
+}
