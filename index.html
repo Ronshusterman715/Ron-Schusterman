@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Ron Schusterman - portfolio project</title>
 </head>
 
 <body>
@@ -24,19 +24,27 @@
 
     <body>
         <header>
-            <div class="profile-image">
-                <img src="./Images/profile-image.png" alt="Your Name">
-                <h2>Ron Schusterman</h2>
-            </div>
-            <nav>
-                <input id="menu-toggle" type="checkbox" class="hamburger">
-                <div class="hamburger">&#9776;</div>
-                <ul class="nav-menu">
-                    <li><a href="#main">ראשי</a></li>
-                    <li><a href="#about">אודות</a></li>
-                    <li><a href="#gallery">גלריה</a></li>
-                    <li><a href="#contact">צור קשר</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg sticky-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./Images/profile-image.png" alt="Profile Image">
+                        <h2 class="mb-0">Ron Schusterman</h2>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#main" class="nav-link">ראשי</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">אודות</a></li>
+                            <li class="nav-item"><a href="#gallery" class="nav-link">גלריה</a></li>
+                            <li class="nav-item"><a href="#contact" class="nav-link">צור קשר</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -80,7 +88,8 @@
                 <img src="./Images/profile-image.png" alt="my Image">
                 <h1>About Me</h1>
                 <p>
-                    I've always loved fixing things. After my service in the army as an F-15 and landing gear
+                    I've always loved fixing things. After my service in the army as an F-15 and landing
+                    gear
                     technician, I
                     chose to go and learn fullstack
                     development. I learnt how to use HTML, CSS, SASS and Bootstrap.
@@ -91,7 +100,7 @@
 
         <!--projects section-->
         <section id="gallery">
-            <div class="contai  ner-fluid">
+            <div class="container">
                 <div class="col-lg-12 col">
                     <div class="row justify-content-center mb-4">
                         <div class="card text-center" style="width: 18rem;">
@@ -103,16 +112,16 @@
                                 <section class="lngImgproject mt-5">
                                     <div class="container text-center">
                                         <div class="row justify-content-center">
-                                            <div class="col-sm-6 col-md-3 col-lg-2 ">
-                                                <img src="./Images/img-HTML.png" class="img-fluid">
+                                            <div class="col-3">
+                                                <img src=" ./Images/img-HTML.png" class="img-fluid">
                                             </div>
-                                            <div class="col-sm-6 col-md-3 col-lg-2 ">
+                                            <div class="col-3">
                                                 <img src="./Images/img-CSS.png" class="img-fluid">
                                             </div>
-                                            <div class="col-sm-6 col-md-3 col-lg-2 ">
+                                            <div class="col-3">
                                                 <img src="./Images/img-SASS.png" class="img-fluid">
                                             </div>
-                                            <div class="col-sm-6 col-md-3 col-lg-2">
+                                            <div class="col-3">
                                                 <img src="./Images/img-Bootstrap.png" class="img-fluid">
                                             </div>
                                         </div>
@@ -131,13 +140,13 @@
                                 <section class="lngImgproject mt-5">
                                     <div class="container text-center">
                                         <div class="row justify-content-center">
-                                            <div class="col-sm-6 col-md-3 col-lg-2 ">
+                                            <div class="col-3">
                                                 <img src="./Images/img-HTML.png" class="img-fluid">
                                             </div>
-                                            <div class="col-sm-6 col-md-3 col-lg-2 ">
+                                            <div class="col-3">
                                                 <img src="./Images/img-CSS.png" class="img-fluid">
                                             </div>
-                                            <div class="col-sm-6 col-md-3 col-lg-2">
+                                            <div class="col-3">
                                                 <img src="./Images/img-Bootstrap.png" class="img-fluid">
                                             </div>
                                         </div>
@@ -162,11 +171,11 @@
 
                                         <div class="row justify-content-center">
 
-                                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 ">
+                                            <div class="col-3">
                                                 <img src="./Images/img-HTML.png" class="img-fluid">
                                             </div>
 
-                                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 ">
+                                            <div class="col-3">
                                                 <img src="./Images/img-CSS.png" class="img-fluid">
                                             </div>
 
@@ -202,15 +211,15 @@
 
                                     <div class="row justify-content-center">
 
-                                        <div class="col-sm-6 col-md-3 col-lg-2 ">
+                                        <div class="col-3">
                                             <img src="./Images/img-HTML.png" class="img-fluid">
                                         </div>
 
-                                        <div class="col-sm-6 col-md-3 col-lg-2 ">
+                                        <div class="col-3">
                                             <img src="./Images/img-CSS.png" class="img-fluid">
                                         </div>
 
-                                        <div class="col-sm-6 col-md-3 col-lg-2">
+                                        <div class="col-3">
                                             <img src="./Images/img-Bootstrap.png" class="img-fluid">
                                         </div>
                                     </div>
@@ -240,15 +249,15 @@
 
                                     <div class="row justify-content-center">
 
-                                        <div class="col-sm-6 col-md-3 col-lg-2 ">
+                                        <div class="col-3">
                                             <img src="./Images/img-HTML.png" class="img-fluid">
                                         </div>
 
-                                        <div class="col-sm-6 col-md-3 col-lg-2 ">
+                                        <div class="col-3">
                                             <img src="./Images/img-CSS.png" class="img-fluid">
                                         </div>
 
-                                        <div class="col-sm-6 col-md-3 col-lg-2">
+                                        <div class="col-3">
                                             <img src="./Images/img-Bootstrap.png" class="img-fluid">
                                         </div>
                                     </div>
@@ -278,15 +287,15 @@
 
                                     <div class="row justify-content-center">
 
-                                        <div class="col-sm-10 col-md-3 col-lg-2 ">
+                                        <div class="col-3">
                                             <img src="./Images/img-HTML.png" class="img-fluid">
                                         </div>
 
-                                        <div class="col-sm-10 col-md-3 col-lg-2 ">
+                                        <div class="col-3">
                                             <img src="./Images/img-CSS.png" class="img-fluid">
                                         </div>
 
-                                        <div class="col-sm-10 col-md-3 col-lg-2">
+                                        <div class="col-3">
                                             <img src="./Images/img-Bootstrap.png" class="img-fluid">
                                         </div>
                                     </div>
@@ -321,17 +330,17 @@
                         <form dir="rtl" lang="he" style="text-align:right;">
                             <div class="form-group">
                                 <label for="name">שם</label>
-                                <input type="text" class="form-control mb-3" placeholder="שם">
+                                <input type="text" class="form-control mb-3" placeholder="שם" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="email">אימייל</label>
-                                <input type="email" class="form-control mb-3" placeholder="אימייל">
+                                <input type="email" class="form-control mb-3" placeholder="אימייל" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="telephone">טלפון</label>
-                                <input type="tel" class="form-control mb-3" placeholder="טלפון">
+                                <input type="tel" class="form-control mb-3" placeholder="טלפון" dir="rtl" required>
                             </div>
 
                             <div class="form-group">

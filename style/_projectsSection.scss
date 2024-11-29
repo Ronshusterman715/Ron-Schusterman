@@ -7,10 +7,22 @@
   align-items: center;
 }
 
+.card {
+  margin: 1rem;
+  width: 18rem;
+}
+
 @media (max-width: 576px) {
   .lngImgproject {
     img {
-      width: 25%;
+      width: 35px;
     }
+  }
+
+  .ingImg .row {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
   }
 }

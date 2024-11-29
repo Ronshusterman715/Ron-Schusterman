@@ -8,72 +8,67 @@ header {
   position: sticky;
   top: 0;
   background-color: #fff;
+  z-index: 1000;
 }
 
-.profile-image {
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
-h2 {
-  padding-top: 20px;
+.navbar-brand img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 500px;
-  height: 35px;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  float: right;
-}
-
-nav ul li a {
-  display: block;
-  color: #000;
-  font-size: 13pt;
-  line-height: 2;
-  width: 100px;
-  text-align: center;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: #1AE0EC;
-}
-
-.hamburger {
-  color: #1AE0EC;
+.nav-link {
+  color: #000 !important;
   font-size: 1.2rem;
-  line-height: 2;
-  font-weight: bold;
-  display: none;
+  text-align: center;
+  width: 100px;
 }
 
-.hamburger:checked ~ .nav-menu {
-  display: flex;
+.nav-link:hover {
+  color: #1ae0ec !important;
 }
 
-@media (max-width: 576px) {
-  nav,
-  .hamburger {
-    display: block;
-    float: right;
+.navbar-toggler {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%231AE0EC' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav {
+  margin-left: auto;
+  direction: rtl;
+}
+
+@media (max-width: 820px) {
+  .navbar-collapse {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: right;
   }
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    float: right;
-  }
-  .hamburger {
-    display: block;
+  .nav-link {
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: right;
   }
 }
 .main {
@@ -159,9 +154,20 @@ p {
   align-items: center;
 }
 
+.card {
+  margin: 1rem;
+  width: 18rem;
+}
+
 @media (max-width: 576px) {
   .lngImgproject img {
-    width: 25%;
+    width: 35px;
+  }
+  .ingImg .row {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
   }
 }
 .contact-section {
