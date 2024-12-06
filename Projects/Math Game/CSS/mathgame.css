@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.fontSize {
+  font-size: 2em;
+}
+
+body {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  align-items: center;
+  background: url("../images/mathGame-background.webp");
+}
+
+.container {
+  width: 60vw;
+  height: 90vh;
+  margin-right: 5vw;
+  text-align: right;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+#ranomNum1,
+#ranomNum2,
+#operator {
+  color: black;
+}

@@ -1,209 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ron Schusterman - portfolio project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/main.css">
 </head>
 
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ron Schusterman</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./style/main.css">
-    </head>
-
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg sticky-top">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="./Images/profile-image.png" alt="Profile Image">
-                        <h2 class="mb-0">Ron Schusterman</h2>
-                    </a>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a href="#main" class="nav-link">ראשי</a></li>
-                            <li class="nav-item"><a href="#about" class="nav-link">אודות</a></li>
-                            <li class="nav-item"><a href="#gallery" class="nav-link">גלריה</a></li>
-                            <li class="nav-item"><a href="#contact" class="nav-link">צור קשר</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <section id="main" class="main">
-            <h1>My Portfolio</h1>
-            <p>
-                From fixing planes to building websites, I'm a full stack developer <br>who's always ready for a
-                challenge.
-            </p>
-        </section>
-
-        <!-- languages im section -->
-
-        <section class="lngImg">
-
-            <div class="container text-center">
-
-                <div class="row justify-content-center">
-
-                    <div class="col-sm-6 col-md-3 col-lg-2 ">
-                        <img src="./Images/img-HTML.png" class="img-fluid">
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-2 ">
-                        <img src="./Images/img-CSS.png" class="img-fluid">
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-2 ">
-                        <img src="./Images/img-SASS.png" class="img-fluid">
-                    </div>
-
-                    <div class="col-sm-6 col-md-3 col-lg-2">
-                        <img src="./Images/img-Bootstrap.png" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- about section -->
-        <section id="about">
-            <div class="cAbout">
-                <img src="./Images/profile-image.png" alt="my Image">
-                <h1>About Me</h1>
-                <p>
-                    I've always loved fixing things. After my service in the army as an F-15 and landing
-                    gear
-                    technician, I
-                    chose to go and learn fullstack
-                    development. I learnt how to use HTML, CSS, SASS and Bootstrap.
-                </p>
-                <a href="#" class="download-rsm">Download Resume</a>
-            </div>
-        </section>
-
-        <!--projects section-->
-        <section id="gallery">
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container">
-                <div class="col-lg-12 col">
-                    <div class="row justify-content-center mb-4">
-                        <div class="card text-center" style="width: 18rem;">
+                <a class="navbar-brand" href="#">
+                    <img src="./Images/profile-image.png" alt="Profile Image">
+                    <h2 class="mb-0">Ron Schusterman</h2>
+                </a>
 
-                            <img class="card-img-top" src="./Images/Discover The World.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Discover The World</h5>
-                                <div class="card-text">ספרו לנו על החוויה שלכם</div>
-                                <section class="lngImgproject mt-5">
-                                    <div class="container text-center">
-                                        <div class="row justify-content-center">
-                                            <div class="col-3">
-                                                <img src=" ./Images/img-HTML.png" class="img-fluid">
-                                            </div>
-                                            <div class="col-3">
-                                                <img src="./Images/img-CSS.png" class="img-fluid">
-                                            </div>
-                                            <div class="col-3">
-                                                <img src="./Images/img-SASS.png" class="img-fluid">
-                                            </div>
-                                            <div class="col-3">
-                                                <img src="./Images/img-Bootstrap.png" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <a href="./Projects/DiscoverTheWorld/project page/index.html"
-                                    class="btn btn-primary mt-5">Go To Project </a>
-                            </div>
-                        </div>
-                        <div class="card text-center" style="width: 18rem;">
-                            <img class="card-img-top" src="./Images/Free Consultation.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Free Consultation</h5>
-                                <div class="card-text">לקבלת ייעוץ חינם</div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                                <section class="lngImgproject mt-5">
-                                    <div class="container text-center">
-                                        <div class="row justify-content-center">
-                                            <div class="col-3">
-                                                <img src="./Images/img-HTML.png" class="img-fluid">
-                                            </div>
-                                            <div class="col-3">
-                                                <img src="./Images/img-CSS.png" class="img-fluid">
-                                            </div>
-                                            <div class="col-3">
-                                                <img src="./Images/img-Bootstrap.png" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <a href="/Projects/freeConsultation/project page/index.html"
-                                    class="btn btn-primary mt-5">Go To Project</a>
-                            </div>
-                        </div>
-                        <div class="card text-center" style="width: 18rem;">
-                            <img class="card-img-top" src="./Images/Good Morning Coffee.jpg" alt="Card image cap">
-
-                            <div class="card-body">
-
-                                <h5 class="card-title">Good Morning Coffee</h5>
-                                <div class="card-text">לקבלת ייעוץ חינם </div>
-
-
-                                <section class="lngImgproject mt-5">
-
-                                    <div class="container text-center">
-
-                                        <div class="row justify-content-center">
-
-                                            <div class="col-3">
-                                                <img src="./Images/img-HTML.png" class="img-fluid">
-                                            </div>
-
-                                            <div class="col-3">
-                                                <img src="./Images/img-CSS.png" class="img-fluid">
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </section>
-                                <a href="/Projects/goodmorningCoffee/project page/index.html"
-                                    class="btn btn-primary mt-5">
-                                    Go To
-                                    Project
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#main" class="nav-link">ראשי</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">אודות</a></li>
+                        <li class="nav-item"><a href="#gallery" class="nav-link">גלריה</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">צור קשר</a></li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+    </header>
 
-            <div class="col-lg-12">
+    <section id="main" class="main">
+        <h1>My Portfolio</h1>
+        <p>
+            From fixing planes to building websites, I'm a full stack developer <br>who's always ready for a
+            challenge.
+        </p>
+    </section>
+
+    <!-- languages im section -->
+
+    <section class="lngImg">
+
+        <div class="container text-center">
+
+            <div class="row justify-content-center">
+
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-HTML.png" class="img-fluid">
+                </div>
+
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-CSS.png" class="img-fluid">
+                </div>
+
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-SASS.png" class="img-fluid">
+                </div>
+
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-JS.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-OOP.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-ES6.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-TypeScript.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-API.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-React.png" class="img-fluid">
+                </div>
+                <div class="col-6 col-lg-1">
+                    <img src="./Images/img-NodeJS.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section id="about">
+        <div class="cAbout">
+            <img src="./Images/profile-image.png" alt="my Image">
+            <h1>About Me</h1>
+            <p>
+                I've always loved fixing things. After my service in the army as an F-15 and landing
+                gear
+                technician, I
+                chose to go and learn fullstack
+                development. I learnt how to use HTML, CSS, SASS and Bootstrap.
+            </p>
+            <a href="#" class="download-rsm">Download Resume</a>
+        </div>
+    </section>
+
+    <!--css projects section-->
+    <section id="gallery" class="cssGallery">
+        <h1 class="text-center">css עבודות</h1>
+        <div class="container">
+            <div class="col-lg-12 col">
                 <div class="row justify-content-center mb-4">
                     <div class="card text-center" style="width: 18rem;">
 
-                        <img class="card-img-top" src="./Images/Here And Now.png" alt="Card image cap">
+                        <img class="card-img-top" src="./Images/Discover The World.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Discover The World</h5>
+                            <div class="card-text">ספרו לנו על החוויה שלכם</div>
+                            <section class="lngImgproject mt-5">
+                                <div class="container text-center">
+                                    <div class="row justify-content-center">
+                                        <div class="col-3">
+                                            <img src=" ./Images/img-HTML.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-CSS.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-SASS.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <a href="./Projects/DiscoverTheWorld/project page/index.html"
+                                class="btn btn-primary mt-5">Go To Project </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="./Images/Free Consultation.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Free Consultation</h5>
+                            <div class="card-text">לקבלת ייעוץ חינם</div>
+
+                            <section class="lngImgproject mt-5">
+                                <div class="container text-center">
+                                    <div class="row justify-content-center">
+                                        <div class="col-3">
+                                            <img src="./Images/img-HTML.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-CSS.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <a href="/Projects/freeConsultation/project page/index.html" class="btn btn-primary mt-5">Go
+                                To Project</a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="./Images/Good Morning Coffee.jpg" alt="Card image cap">
 
                         <div class="card-body">
 
-                            <h5 class="card-title">Here And Now</h5>
+                            <h5 class="card-title">Good Morning Coffee</h5>
+                            <div class="card-text">לקבלת ייעוץ חינם </div>
 
-                            <div class="card-text">שלל מתנות</div>
 
                             <section class="lngImgproject mt-5">
 
@@ -219,29 +192,204 @@
                                             <img src="./Images/img-CSS.png" class="img-fluid">
                                         </div>
 
-                                        <div class="col-3">
-                                            <img src="./Images/img-Bootstrap.png" class="img-fluid">
-                                        </div>
                                     </div>
                                 </div>
                             </section>
-                            <a href="/Projects/Here&Now/project page/index.html" class="btn btn-primary mt-5">
+                            <a href="/Projects/goodmorningCoffee/project page/index.html" class="btn btn-primary mt-5">
                                 Go To
                                 Project
                             </a>
-
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="row justify-content-center mb-2">
+                <div class="card text-center" style="width: 18rem;">
+
+                    <img class="card-img-top" src="./Images/Here And Now.png" alt="Card image cap">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Here And Now</h5>
+
+                        <div class="card-text">שלל מתנות</div>
+
+                        <section class="lngImgproject mt-5">
+
+                            <div class="container text-center">
+
+                                <div class="row justify-content-center">
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-HTML.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-CSS.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <a href="/Projects/Here&Now/project page/index.html" class="btn btn-primary mt-5">
+                            Go To
+                            Project
+                        </a>
 
                     </div>
+
+                </div>
+                <div class="card text-center" style="width: 18rem;">
+
+                    <img class="card-img-top" src="./Images/Lead Forward Blue.jpg" alt="Card image cap">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Lead Forward Blue</h5>
+
+                        <div class="card-text">תן לנו להוביל אותך קדימה</div>
+
+                        <section class="lngImgproject mt-5">
+
+                            <div class="container text-center">
+
+                                <div class="row justify-content-center">
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-HTML.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-CSS.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <a href="/Projects/lead forward blue/project page/index.html" class="btn btn-primary mt-5">
+                            Go To
+                            Project
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="card text-center" style="width: 18rem;">
+
+                    <img class="card-img-top" src="./Images/lead forward purple.jpg" alt="Card image cap">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">lead forward purple</h5>
+
+                        <div class="card-text">תן לנו להוביל אותך קדימה</div>
+
+                        <section class="lngImgproject mt-5">
+
+                            <div class="container text-center">
+
+                                <div class="row justify-content-center">
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-HTML.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-CSS.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <a href="/Projects/lead forward purple/project page/index.html" class="btn btn-primary mt-5">
+                            Go
+                            To Project
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- js projects section -->
+    <section id="gallery" class="jsGallery">
+        <h1 class="text-center mb-4">JavaScript עבודות</h1>
+        <div class="container">
+            <div class="col-lg-12 col">
+                <div class="row justify-content-center mb-4">
                     <div class="card text-center" style="width: 18rem;">
 
-                        <img class="card-img-top" src="./Images/Lead Forward Blue.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./Images/Page-Builder.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">בונה מסכים</h5>
+                            <div class="card-text">ספרו לנו על החוויה שלכם</div>
+                            <section class="lngImgproject mt-5">
+                                <div class="container text-center">
+                                    <div class="row justify-content-center">
+                                        <div class="col-3">
+                                            <img src=" ./Images/img-HTML.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-CSS.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-SASS.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <a href="./Projects/DiscoverTheWorld/project page/index.html"
+                                class="btn btn-primary mt-5">Go To Project </a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="./Images/userManagmentSystem.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">ניהול משתמשים</h5>
+                            <div class="card-text">לקבלת ייעוץ חינם</div>
+
+                            <section class="lngImgproject mt-5">
+                                <div class="container text-center">
+                                    <div class="row justify-content-center">
+                                        <div class="col-3">
+                                            <img src="./Images/img-HTML.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-CSS.png" class="img-fluid">
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <a href="/Projects/freeConsultation/project page/index.html" class="btn btn-primary mt-5">Go
+                                To Project</a>
+                        </div>
+                    </div>
+                    <div class="card text-center" style="width: 18rem;">
+                        <img class="card-img-top" src="./Images/shoppingCart.png" alt="Card image cap">
 
                         <div class="card-body">
 
-                            <h5 class="card-title">Lead Forward Blue</h5>
+                            <h5 class="card-title">רשימת קניות</h5>
+                            <div class="card-text">לקבלת ייעוץ חינם </div>
 
-                            <div class="card-text">תן לנו להוביל אותך קדימה</div>
 
                             <section class="lngImgproject mt-5">
 
@@ -257,154 +405,229 @@
                                             <img src="./Images/img-CSS.png" class="img-fluid">
                                         </div>
 
-                                        <div class="col-3">
-                                            <img src="./Images/img-Bootstrap.png" class="img-fluid">
-                                        </div>
                                     </div>
                                 </div>
                             </section>
-                            <a href="/Projects/lead forward blue/project page/index.html" class="btn btn-primary mt-5">
+                            <a href="/Projects/goodmorningCoffee/project page/index.html" class="btn btn-primary mt-5">
                                 Go To
                                 Project
                             </a>
-
                         </div>
-
                     </div>
-                    <div class="card text-center" style="width: 18rem;">
+                </div>
+            </div>
+        </div>
 
-                        <img class="card-img-top" src="./Images/lead forward purple.jpg" alt="Card image cap">
+        <div class="col-lg-12">
+            <div class="row justify-content-center mb-2">
+                <div class="card text-center" style="width: 18rem;">
 
-                        <div class="card-body">
+                    <img class="card-img-top" src="./Images/mathGame.png" alt="Card image cap">
 
-                            <h5 class="card-title">lead forward purple</h5>
+                    <div class="card-body">
 
-                            <div class="card-text">תן לנו להוביל אותך קדימה</div>
+                        <h5 class="card-title">לומדת חשבון</h5>
 
-                            <section class="lngImgproject mt-5">
+                        <div class="card-text">שלל מתנות</div>
 
-                                <div class="container text-center">
+                        <section class="lngImgproject mt-5">
 
-                                    <div class="row justify-content-center">
+                            <div class="container text-center">
 
-                                        <div class="col-3">
-                                            <img src="./Images/img-HTML.png" class="img-fluid">
-                                        </div>
+                                <div class="row justify-content-center">
 
-                                        <div class="col-3">
-                                            <img src="./Images/img-CSS.png" class="img-fluid">
-                                        </div>
+                                    <div class="col-3">
+                                        <img src="./Images/img-HTML.png" class="img-fluid">
+                                    </div>
 
-                                        <div class="col-3">
-                                            <img src="./Images/img-Bootstrap.png" class="img-fluid">
-                                        </div>
+                                    <div class="col-3">
+                                        <img src="./Images/img-CSS.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-Bootstrap.png" class="img-fluid">
                                     </div>
                                 </div>
-                            </section>
-                            <a href="/Projects/lead forward purple/project page/index.html"
-                                class="btn btn-primary mt-5">
-                                Go
-                                To Project
-                            </a>
+                            </div>
+                        </section>
+                        <a href="./Projects/Math Game/project page/index.html" class="btn btn-primary mt-5">
+                            Go To
+                            Project
+                        </a>
 
+                    </div>
+
+                </div>
+                <div class="card text-center" style="width: 18rem;">
+
+                    <img class="card-img-top" src="./Images/memoryGam.png" alt="Card image cap">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">משחק זיכרון</h5>
+
+                        <div class="card-text">תן לנו להוביל אותך קדימה</div>
+
+                        <section class="lngImgproject mt-5">
+
+                            <div class="container text-center">
+
+                                <div class="row justify-content-center">
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-HTML.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-CSS.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <a href="/Projects/lead forward blue/project page/index.html" class="btn btn-primary mt-5">
+                            Go To
+                            Project
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="card text-center" style="width: 18rem;">
+
+                    <img class="card-img-top" src="./Images/ticTacTo.png" alt="Card image cap">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">איקס עיגול</h5>
+
+                        <div class="card-text">תן לנו להוביל אותך קדימה</div>
+
+                        <section class="lngImgproject mt-5">
+
+                            <div class="container text-center">
+
+                                <div class="row justify-content-center">
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-HTML.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-CSS.png" class="img-fluid">
+                                    </div>
+
+                                    <div class="col-3">
+                                        <img src="./Images/img-Bootstrap.png" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <a href="/Projects/lead forward purple/project page/index.html" class="btn btn-primary mt-5">
+                            Go
+                            To Project
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact-section -->
+    <section id="contact" class="contact-section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="./Images/contactMail.png" alt="Image" class="img-fluid">
+                </div>
+
+                <div class="col-md-6">
+                    <h2 dir="ltr" lang="he" style="text-align:left;">Contact Me</h2>
+
+                    <form dir="rtl" lang="he" style="text-align:right;">
+                        <div class="form-group">
+                            <label for="name">שם</label>
+                            <input type="text" class="form-control mb-3" placeholder="שם" required>
                         </div>
-                    </div>
+
+                        <div class="form-group">
+                            <label for="email">אימייל</label>
+                            <input type="email" class="form-control mb-3" placeholder="אימייל" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">טלפון</label>
+                            <input type="tel" class="form-control mb-3" placeholder="טלפון" dir="rtl" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Message">הודעה</label>
+                            <textarea class="form-control mb-3" placeholder="הודעה"></textarea>
+                        </div>
+
+                        <a href="#" class="send">שליחה</a>
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- contact-section -->
-        <section id="contact" class="contact-section">
+    <!-- contact section  -->
+    <section class="mycontactImg">
+        <div class="container">
 
-            <div class="container">
+            <div class="row justify-content-center">
 
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <img src="./Images/contactMail.png" alt="Image" class="img-fluid">
-                    </div>
-
-                    <div class="col-md-6">
-                        <h2 dir="ltr" lang="he" style="text-align:left;">Contact Me</h2>
-
-                        <form dir="rtl" lang="he" style="text-align:right;">
-                            <div class="form-group">
-                                <label for="name">שם</label>
-                                <input type="text" class="form-control mb-3" placeholder="שם" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">אימייל</label>
-                                <input type="email" class="form-control mb-3" placeholder="אימייל" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="telephone">טלפון</label>
-                                <input type="tel" class="form-control mb-3" placeholder="טלפון" dir="rtl" required>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="Message">הודעה</label>
-                                <textarea class="form-control mb-3" placeholder="הודעה"></textarea>
-                            </div>
-
-                            <a href="#" class="send">שליחה</a>
-                        </form>
-                    </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
+                    <i class="fa-solid fa-location-dot" style="color: #324971;"></i>
+                    <span class="mt-2">פתח תקווה</span>
                 </div>
-            </div>
-        </section>
-
-        <!-- contact section  -->
-        <section class="mycontactImg">
-            <div class="container">
-
-                <div class="row justify-content-center">
-
-                    <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
-                        <i class="fa-solid fa-location-dot" style="color: #324971;"></i>
-                        <span class="mt-2">פתח תקווה</span>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
-                        <i class="fa-solid fa-envelope" style="color: #324971;"></i>
-                        <span class="mt-2">Ron7892123@gmail.com</span>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
-                        <i class="fa-brands fa-square-whatsapp" style="color: #324971;"></i>
-                        <span class="mt-2">053-2860712</span>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
-                        <i class="fa-solid fa-phone" style="color: #324971;"></i>
-                        <span class="mt-2">053-2860712</span>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
-                        <i class="fa-brands fa-linkedin-in" style="color: #324971;"></i>
-                        <span class="mt-2">#ron Shusterman</span>
-                    </div>
-                    <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
-                        <i class="fa-brands fa-facebook-f" style="color: #324971;"></i>
-                        <span class="mt-2">#Ron Shusterman</span>
-                    </div>
-
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
+                    <i class="fa-solid fa-envelope" style="color: #324971;"></i>
+                    <span class="mt-2">Ron7892123@gmail.com</span>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
+                    <i class="fa-brands fa-square-whatsapp" style="color: #324971;"></i>
+                    <span class="mt-2">053-2860712</span>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
+                    <i class="fa-solid fa-phone" style="color: #324971;"></i>
+                    <span class="mt-2">053-2860712</span>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
+                    <i class="fa-brands fa-linkedin-in" style="color: #324971;"></i>
+                    <span class="mt-2">#ron Shusterman</span>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 d-flex flex-column text-center">
+                    <i class="fa-brands fa-facebook-f" style="color: #324971;"></i>
+                    <span class="mt-2">#Ron Shusterman</span>
                 </div>
 
             </div>
-        </section>
 
-        <!-- footer -->
-        <footer>
+        </div>
+    </section>
 
-            <div class="footer-section">
-                <p>&copy; Ron Schusterman 2023. All rights reserved.</p>
-            </div>
-        </footer>
+    <!-- footer -->
+    <footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous"></script>
-    </body>
+        <div class="footer-section">
+            <p>&copy; Ron Schusterman 2023. All rights reserved.</p>
+        </div>
+    </footer>
 
-    </html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
 </body>
 
 </html>

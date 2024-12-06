@@ -1,3 +1,17 @@
 .lngImg {
-    height: 30px;
+  padding: 20px 0;
+}
+
+.lngImg img {
+  max-height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 400px) {
+  .lngImg img {
+    max-height: 40px;
+    width: 40px;
+  }
 }

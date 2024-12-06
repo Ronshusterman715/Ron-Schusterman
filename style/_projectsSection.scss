@@ -1,10 +1,10 @@
-#gallery {
-  background-color: #f6f6f6;
-}
-
 #gallery .container {
   display: flex;
   align-items: center;
+}
+
+.cssGallery {
+  background-color: #bafcff;
 }
 
 .card {
@@ -17,12 +17,5 @@
     img {
       width: 35px;
     }
-  }
-
-  .ingImg .row {
-    display: flex;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    padding: 1rem;
   }
 }

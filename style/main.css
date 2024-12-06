@@ -100,12 +100,24 @@ p {
   }
 }
 .lngImg {
-  height: 30px;
+  padding: 20px 0;
 }
 
+.lngImg img {
+  max-height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 400px) {
+  .lngImg img {
+    max-height: 40px;
+    width: 40px;
+  }
+}
 .cAbout {
   padding-top: 80px;
-  width: 100vw;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -138,20 +150,21 @@ p {
 
 @media (max-width: 576px) {
   .cAbout {
-    margin-top: 320px;
+    margin-top: 20px;
+    padding-top: 20px;
   }
 }
 .cAbout p {
   width: 85vw;
 }
 
-#gallery {
-  background-color: #f6f6f6;
-}
-
 #gallery .container {
   display: flex;
   align-items: center;
+}
+
+.cssGallery {
+  background-color: #bafcff;
 }
 
 .card {
@@ -162,12 +175,6 @@ p {
 @media (max-width: 576px) {
   .lngImgproject img {
     width: 35px;
-  }
-  .ingImg .row {
-    display: flex;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    padding: 1rem;
   }
 }
 .contact-section {
@@ -227,4 +234,4 @@ footer {
   footer {
     margin-top: 5px;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
