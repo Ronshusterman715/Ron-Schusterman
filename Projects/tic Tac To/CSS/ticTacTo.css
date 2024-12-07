@@ -5,7 +5,7 @@
 }
 
 .left {
-  background: url("./images/ticTacTo-Left.PNG") no-repeat center center;
+  background: url("../images/ticTacTo-Left.PNG") no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
