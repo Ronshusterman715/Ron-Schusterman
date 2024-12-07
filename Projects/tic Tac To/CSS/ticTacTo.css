@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left {
+  background: url("./images/ticTacTo-Left.PNG") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.right {
+  background-color: #2a4d69;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+p {
+  text-align: center;
+  color: #b8f5f3;
+  margin: 1.3rem;
+}
+
+#winOrDraw {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+  font-weight: bold;
+  color: aqua;
+}
+
+.resetBtn {
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #b8f5f3;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  .cell {
+    width: 50px;
+    height: 50px;
+  }
+}
