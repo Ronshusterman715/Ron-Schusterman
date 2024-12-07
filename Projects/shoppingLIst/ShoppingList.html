@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>עגלת קניות</title>
+    <link rel="stylesheet" href="./CSS/shoppingList.css">
+</head>
+
+<body>
+    <div id="shoppingCart">
+        <h1>רשימת קניות</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae veritatis harum praesentium eos
+            itaque
+            ut.
+        </p>
+        <form>
+            <label for="productName">שם הפריט:</label>
+            <input type="text" id="productName">
+            <label for="productCategory">קטגוריה:</label>
+            <input type="text" id="productCategory">
+            <label for="productPrice">מחיר:</label>
+            <input type="number" id="productPrice">
+        </form>
+        <button onclick="addProduct()">הוספה</button>
+        <button onclick="saveList()">שמירה</button>
+        <button onclick="loadLastStorageSave()">שחזור שמירה</button>
+        <hr>
+        <dl id="productList">
+
+        </dl>
+        <script src="./JS/shoppingList.js"></script>
+    </div>
+</body>
+
+</html>
