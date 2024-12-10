@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+.ltr {
+    direction: ltr;
+    text-align: left;
+}
+
+.yellow{
+    background: #FDBD03;
+}
+
+.container-fluid {
+    width: 100vw;
+}
+
+.whatsapp {
+  text-align: left;
+}
+
+.row.rtl {
+  direction: rtl;
+}
+
+.whatsapp>img {
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#row1 {
+    margin-top: 50px;
+    background: #FFFF 0% 0% no-repeat padding-box;
+}
+
+#row2 {
+    height: 2em;
+    
+}
+
+form,
+.form-container,
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.icons-container,
+.icon-circle{  
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.phone>img {
+    padding: 5em;
+    text-align: center;
+    width: 50vw;
+}
+
+.form-title {
+  text-align: right;
+font: normal normal 900 66px/97px Heebo;
+letter-spacing: 0px;
+color: #FDBD03;
+}
+
+.form-text {
+ text-align: right;
+font: normal normal normal 20px/29px Heebo;
+letter-spacing: 0px;
+color: #020253;
+}
+
+/* .form-main-container {
+    padding: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+} */
+
+input,
+textarea {
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    border: 0;
+    border-bottom: 3px solid #FDBD03;
+}
+
+input {
+    height: 51px;
+}
+
+.btn {
+    height: 51px;
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 20px/28px Heebo;
+    letter-spacing: 0.3px;
+    color: #000000;
+    margin-top: 2em;
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 15px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icon-circle>.fa {
+    padding: 1px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.icons-container {
+    margin-top: 2em;
+    flex-direction: row;
+}
+
+.form-main-container{
+display: flex;
+  flex-direction: row; 
+}

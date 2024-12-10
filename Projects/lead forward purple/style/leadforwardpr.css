@@ -1,0 +1,45 @@
+body {
+  height: 50vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 400px;
+  background: #1A1A1AD4;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  margin-top: 25vh;
+}
+
+.form {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+h1 {
+  font-size: 30px;
+}
+
+label {
+  text-align: right;
+}
+
+.send {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 2px solid #D31C75;
+  border-radius: 4px;
+  background-color: #D31C75;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}

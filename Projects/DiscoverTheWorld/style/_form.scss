@@ -1,0 +1,41 @@
+form {
+    h1{
+    padding-top: 23px;
+    color: #FFFFFF;
+    }
+}
+
+label{
+    color: #0EE1DA;
+    margin-top: 21px;
+}
+
+input{
+    height: 60px;
+     box-shadow: 0 5px 0 0 #0EE1DA;
+}
+
+.form-10 {
+    padding-top: 63px;
+     background-color: #8E097C;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+}
+
+.btn{
+    background-color: #0EE1DA;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
