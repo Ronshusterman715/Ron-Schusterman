@@ -1,17 +1,33 @@
 // languages img
 
 .lngImg {
-    height: 7vh;
+  height: 7vh;
 }
 
-.main-img{
-background-color:#EBFEFF;
-display: flex;
-justify-content: center;
-margin-top: 10vh;
-img{
+.main-img {
+  background-color: #ebfeff;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  img {
     width: 70vw;
     height: 80vh;
-    //    margin-bottom: 184px;
+  }
 }
+
+@media (max-width: 1200px) {
+  .main-img img {
+    width: 80vw;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .lngImg img {
+    height: 5vh;
+  }
+  .main-img img {
+    width: 100vw;
+    height: 45vh;
+  }
 }

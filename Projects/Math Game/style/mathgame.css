@@ -34,3 +34,14 @@ body {
 #operator {
   color: black;
 }
+
+@media (max-width: 700px) {
+  .container {
+    width: 80vw;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 90vw;
+  }
+}

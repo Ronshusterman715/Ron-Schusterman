@@ -67,3 +67,19 @@ input {
   color: red;
   font-weight: bold;
 }
+
+@media (max-width: 576px) {
+  #builder {
+    padding: 12vh;
+  }
+
+  #builder input {
+    width: 10vw !important;
+  }
+
+  #builder button {
+    width: 10vw !important;
+    height: 10vw !important;
+    font-size: 0.6rem;
+  }
+}
