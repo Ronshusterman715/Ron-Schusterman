@@ -22,9 +22,16 @@ function createExercise() {
     document.getElementById("operator").innerHTML = operator;
 }
 
+document.getElementById("answer").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        checkAnswer();
+    }
+});
+
 
 function checkAnswer() {
     let userAnswer = document.getElementById('answer').value;
+
     if (isNewGame == false && userAnswer == "") {
         alert("הכנס בבקשה תשובה תקינה");
         return;
