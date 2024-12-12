@@ -43,5 +43,6 @@ body {
 @media (max-width: 500px) {
   .container {
     width: 90vw;
+    font-size: 0.7em;
   }
 }
