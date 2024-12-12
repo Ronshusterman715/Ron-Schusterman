@@ -27,49 +27,17 @@
     align-items: stretch;
   }
 
-  #register .form form .form-control,
-  #login .form form input,
-  #login .form form button {
-    width: 100%;
-  }
-
   #register h1,
   #login h1 {
     font-size: 1.5rem;
   }
 
-  #register h1,
-  #login h1 {
-    font-size: 1.5rem;
+  #userTable {
+    overflow-x: scroll;
+    font-size: 0.7rem;
   }
 
-  #register input,
-  #login input {
-    align-items: center;
-  }
-
-  #userTable table {
-    width: 100%;
-    font-size: 0.9rem;
-    overflow-x: auto;
-    display: block;
-  }
-
-  #userTable thead,
-  #userTable tbody,
-  #userTable tr,
-  #userTable td {
-    display: block;
-    width: 100%;
-  }
-
-  #userTable td {
-    border-bottom: 1px solid #ddd;
-    padding: 8px 0;
-  }
-
-  #register,
-  #login {
-    padding: 10px;
+  #register {
+    padding: 25%;
   }
 }
