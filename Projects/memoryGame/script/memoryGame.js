@@ -28,6 +28,7 @@ async function cardDeckCreator() {
         return gameCards.sort(() => Math.random() - 0.5);
     } catch (error) {
         console.log(new Error(error));
+        alert("error: " + error);
         const cards = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5];
         return cards.sort(() => Math.random() - 0.5);
     }
